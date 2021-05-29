@@ -1,6 +1,6 @@
-# CDR-Epitope-Binding
+# TCR-Epitope-Binding
 
-The recognition of antigens by T-cells and B-cells are a core part of the human immune system's protection against viruses, bateria, and even cancer. This project sets out to predict the binding of T-cells with an Epitope, a part of an antigen that is recognized by the T-cell.
+The recognition of antigens by T-cells and B-cells are a core part of the human immune system's protection against viruses, bateria, and even cancer. This project sets out to predict the binding of T-cells Receptors (TCR) with an Epitope, a part of an antigen that is recognized by the T-cell.
 
 ## Data
 Three publicly available datasets are used for this project: Adaptive Biotechnologies’ ImmuneCODE database containing putative SARS-CoV-2-specific TCR sequences and their corresponding epitopes [1]; VDJdb: a collection of paired TCR sequences and epitopes from previously published studies, largely in infectious diseases [2]; and McPAS-TCR, a manually curated database of TCR sequences associated with various pathologies and antigens [3]. Here are some sample TCR and Epitope sequence pairs as well as their Antigen type:
