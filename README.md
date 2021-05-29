@@ -5,22 +5,22 @@ The recognition of antigens by T-cells and B-cells are a core part of the human 
 ## Data
 Three publicly available datasets are used for this project: Adaptive Biotechnologies’ ImmuneCODE database containing putative SARS-CoV-2-specific TCR sequences and their corresponding epitopes [1]; VDJdb: a collection of paired TCR sequences and epitopes from previously published studies, largely in infectious diseases [2]; and McPAS-TCR, a manually curated database of TCR sequences associated with various pathologies and antigens [3]. Here are some sample TCR and Epitope sequence pairs as well as their Antigen type:
 
-![Sample Sequences](TODO)
+![Sample Sequences](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Sample_TCR_Epitope_Sequences.JPG)
 
 ## Model
 Three types of models are created: one baseline Multilayer Perceptron n-gram model, one LSTM model, and two similar Transformer (BERT) models. The LSTM model mimics the model architecture presented in [4], the previous State of the Art model for predicting TCR-Epitope pairs. A table of hyperparameters and model architecture are shown here:
 
-![Table of models](TODO)
+![Table of models](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Model_Table.JPG)
 
 Diagrams of the BERT and LSTM models are shown here:
-![BERT_LSTM](TODO)
+![BERT_LSTM](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Model_Diagram.JPG)
 
 ## Results
 Precision-Recall curves and ROC curves for all models are shown here:
-![Curves](TODO)
+![Curves](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Curves.JPG)
 
 The BERT-mini model created performs the best overall, having the best Average Precision and ROC AUC out of all the models. The model also beats the LSTM model that represetnes the previous State of the Art model. Some sample real (left) and BERT-mini model learned (right) epitope sequence motifs are shown here:
-![Sequence_Motifs](TODO)
+![Sequence_Motifs](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Sequence_Motifs.JPG)
 
 Two practical applications for this project are identification of molecular (TCR) biomarkers of viral disease or immune response, such as response to vaccination, and identification of tumorspecific TCRs for potential CAR-T cell therapy.
 
