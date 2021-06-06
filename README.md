@@ -5,7 +5,7 @@ The recognition of antigens by T-cells and B-cells are a core part of the human 
 ## Data
 Three publicly available datasets are used for this project: Adaptive Biotechnologies’ ImmuneCODE database containing putative SARS-CoV-2-specific TCR sequences and their corresponding epitopes [1]; VDJdb: a collection of paired TCR sequences and epitopes from previously published studies, largely in infectious diseases [2]; and McPAS-TCR, a manually curated database of TCR sequences associated with various pathologies and antigens [3]. 
 
-Each entry of the dataset conists of a TCR and an Epitope sequence. Each letter in the sequence represents an unique animo acid. The longest TCR sequence is 36 amino acids long, while the longest Epitope sequence is 18 animo acids long. Examples of TCR and Epitope sequence pairs as well as their Antigen type are shown here:
+Each entry of the dataset consists of a TCR and an Epitope sequence. Each letter in the sequence represents an unique animo acid. The longest TCR sequence is 36 amino acids long, while the longest Epitope sequence is 18 animo acids long. Examples of TCR and Epitope sequence pairs as well as their Antigen type are shown here:
 
 ![Sample Sequences](https://github.com/el535/TCR-Epitope-Binding/blob/main/Project_Images/Sample_TCR_Epitope_Sequences.JPG)
 
